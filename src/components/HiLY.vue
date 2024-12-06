@@ -1,8 +1,8 @@
 <template>
   <section id="self-introduction" class="bg-gray-100">
-    <div class="h-screen container mx-auto flex flex-col-reverse md:flex-row items-center">
+    <div class="h-screen container mx-auto flex flex-col-reverse justify-evenly lg:flex-row items-center">
       <!-- Left Section: Text Content -->
-      <div class="md:w-9/12 text-center md:text-left px-6 mr-12">
+      <div class="lg:w-9/12 text-center md:text-left px-6">
         <h2 class="text-4xl font-bold text-blue-500 mb-4">Hello, I'm [Your Name]</h2>
         <p class="text-2xl text-gray-700 mb-6">
           I am a passionate and driven front-end developer with expertise in creating modern, responsive, and dynamic web
@@ -25,7 +25,7 @@
       </div>
 
       <!-- Right Section: Image -->
-      <div class="md:w-1/2 px-6 mb-10 md:mb-0">
+      <div class="lg:w-1/2 px-6 mt-10">
         <img src="https://via.placeholder.com/400" alt="Self Introduction" class="rounded-lg shadow-lg mx-auto" />
       </div>
     </div>
