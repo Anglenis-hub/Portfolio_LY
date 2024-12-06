@@ -1,6 +1,8 @@
 <template>
     <section id="projects" class="py-20">
-        <div class="container mx-auto px-6 text-center md:text-left">
+        <div class="container mx-auto px-6 text-center md:text-left"
+            data-aos="zoom-in-up"
+            data-aos-duration="500">
             <!-- Section Title -->
             <h3 class="text-3xl font-bold text-blue-500 mb-4">Projects</h3>
             <p class="text-lg text-gray-600 mb-10">
@@ -13,7 +15,7 @@
                 <div
                     v-for="project in projects"
                     :key="project.title"
-                    class="flex flex-col justify-between bg-gray-100 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                    class="flex flex-col justify-between bg-gray-100 rounded-lg shadow-defaultBox p-6 hover:shadow-xl transition-shadow duration-300">
                     <div>
                         <img :src="project.image" :alt="project.title" class="w-full h-48 object-cover rounded-md mb-4" />
                         <h4 class="text-2xl font-semibold text-gray-800 mb-2">{{ project.title }}</h4>

@@ -1,6 +1,8 @@
 <template>
     <section id="skills" class="py-20">
-        <div class="container mx-auto px-6 text-center md:text-left">
+        <div class="container mx-auto px-6 text-center md:text-left"
+            data-aos="zoom-in-up"
+            data-aos-duration="500">
             <!-- Skills and Experience -->
             <div class="mt-16 lg:grid lg:grid-cols-2 lg:gap-10">
                 <!-- Skills Section -->

@@ -1,5 +1,5 @@
 <template>
-    <header class="fixed top-0 left-0 w-full bg-blue-300 z-50 shadow-lg">
+    <header class="fixed top-0 left-0 w-full bg-blue-300 z-50 shadow-defaultBox">
         <div class="flex justify-between items-center p-6 bg-blue-300 relative z-20">
             <!-- Logo -->
             <div v-show="isLogoShown" class="text-white text-3xl font-bold">LOGO</div>

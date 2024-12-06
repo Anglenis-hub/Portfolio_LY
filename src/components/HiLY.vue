@@ -15,10 +15,10 @@
           on turning ideas into reality.
         </p>
         <a href="#contact"
-          class="inline-block bg-blue-500 text-white px-6 py-3 mr-8 rounded-lg shadow-md hover:bg-blue-600 transition duration-300">
+          class="inline-block bg-blue-500 text-white px-6 py-3 mr-8 rounded-lg shadow-defaultBox hover:bg-blue-600 transition duration-300">
           Contact Me
         </a><a href="/resume_PDF.pdf" download
-          class="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-600 transition duration-300">
+          class="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-defaultBox hover:bg-blue-600 transition duration-300">
           Download Resume
         </a>
 
@@ -26,7 +26,7 @@
 
       <!-- Right Section: Image -->
       <div class="lg:w-1/2 px-6 mt-10">
-        <img src="https://via.placeholder.com/400" alt="Self Introduction" class="rounded-lg shadow-lg mx-auto" />
+        <img src="https://via.placeholder.com/400" alt="Self Introduction" class="rounded-lg shadow-defaultBox mx-auto" />
       </div>
     </div>
   </section>
