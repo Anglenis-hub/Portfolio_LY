@@ -49,7 +49,6 @@ const isLogoShown = ref(true); // Show logo by default
 
 // Menu items
 const Menu = ref([
-    { name: 'Services', href: '#services' },
     { name: 'About me', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },

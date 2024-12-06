@@ -1,5 +1,5 @@
 <template>
-  <section id="self-introduction" class="bg-gray-100">
+  <section id="self-introduction">
     <div class="h-screen container mx-auto flex flex-col-reverse justify-evenly lg:flex-row items-center">
       <!-- Left Section: Text Content -->
       <div class="lg:w-9/12 text-center md:text-left px-6">

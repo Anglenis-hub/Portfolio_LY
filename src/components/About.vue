@@ -1,6 +1,7 @@
 <template>
-    <section id="about" class="py-20 bg-gray-100">
+    <section id="about" class="py-20">
         <div class="container mx-auto px-6 text-center md:text-left">
+            <!-- About Me -->
             <h2 class="text-4xl font-bold text-blue-500 mb-6">About Me</h2>
             <div class="flex flex-col md:flex-row items-center">
                 <!-- Profile Image -->
@@ -27,6 +28,16 @@
                     </p>
                 </div>
             </div>
+
+            <!-- Education -->
+            <div class="mt-16">
+                <h3 class="text-3xl font-bold text-blue-500 mb-4">Education</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-4">
+                    <li><strong>Bachelor's in Software Engineering</strong> - [Your University Name], [Year]</li>
+                    <li><strong>Certification in Full-Stack Development</strong> - [Institution Name], [Year]</li>
+                </ul>
+            </div>
+
         </div>
     </section>
 </template>

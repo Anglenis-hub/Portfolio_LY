@@ -2,13 +2,17 @@
 import HiLY from '@/components/HiLY.vue'
 import NavBar from '@/components/NavBar.vue'
 import About from '@/components/About.vue'
+import Skills from '@/components/Skills.vue'
+import Projects from '@/components/Projects.vue'
 </script>
 
 <template>
-  <div>
+  <div class="bg-gray-100">
     <NavBar />
     <HiLY />
     <About />
+    <Skills />
+    <Projects />
   </div>
 </template>
 
