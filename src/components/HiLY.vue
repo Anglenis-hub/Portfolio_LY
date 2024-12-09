@@ -1,9 +1,26 @@
 <template>
-  <section id="self-introduction">
-    <div class="h-screen container mx-auto flex flex-col-reverse justify-evenly lg:flex-row items-center">
-      <!-- Left Section: Text Content -->
-      <div class="lg:w-9/12 text-center md:text-left px-6">
-        <h2 class="text-4xl font-bold text-blue-500 mb-4">Hello, I'm [Your Name]</h2>
+  <section id="self-introduction"
+    class="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-gray-100 to-blue-100 overflow-hidden">
+    <!-- bg with some shapes -->
+    <div
+      v-for="(shape, index) in shapeDefinitions.shapeItems"
+      :key="index"
+      :class="[
+        'absolute z-10 transform transition-all duration-500',
+        shape.position,
+        shapeDefinitions.sizes[shape.size],
+        shapeDefinitions.colors[shape.color],
+        shapeDefinitions.shapeTypes[shape.shape],
+        shapeDefinitions.effects[shape.effect],
+        shape.opacity,
+      ]"></div>
+
+    <div
+      class="relative z-1 h-screen container mx-auto flex flex-col-reverse justify-evenly lg:flex-row items-center backdrop-blur-none">
+      <!-- left-slef introduce text -->
+      <div
+        class="lg:w-9/12 text-center md:text-left p-6 bg-white/30 border border-white/20 shadow-defaultBox rounded-3xl">
+        <h2 class="text-4xl font-bold text-blue-500 mb-4">Hello, I'm LIANG YI</h2>
         <p class="text-2xl text-gray-700 mb-6">
           I am a passionate and driven front-end developer with expertise in creating modern, responsive, and dynamic web
           applications. My journey started with a love for design and problem-solving, and it has grown into a fulfilling
@@ -17,18 +34,42 @@
         <a href="#contact"
           class="inline-block bg-blue-500 text-white px-6 py-3 mr-8 rounded-lg shadow-defaultBox hover:bg-blue-600 transition duration-300">
           Contact Me
-        </a><a href="/resume_PDF.pdf" download
+        </a>
+        <a href="/resume_PDF.pdf" download
           class="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-defaultBox hover:bg-blue-600 transition duration-300">
           Download Resume
         </a>
-
       </div>
 
-      <!-- Right Section: Image -->
-      <div class="lg:w-1/2 px-6 mt-10">
+      <!-- right-slef picture -->
+      <div class="lg:w-1/2 px-6">
         <img src="https://via.placeholder.com/400" alt="Self Introduction" class="rounded-lg shadow-defaultBox mx-auto" />
       </div>
     </div>
   </section>
 </template>
-<style scoped></style>
+
+<script setup>
+import shapeDefinitions from "@/utils/shapeDefinitions";
+</script>
+<style scoped>
+/* make shapes have animation */
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* .animate-floating {
+  animation: floating 1s ease-in-out infinite;
+  rotate: 15deg;
+} */
+</style>

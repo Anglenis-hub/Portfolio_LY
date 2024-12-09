@@ -1,10 +1,10 @@
 <template>
     <section id="skills" class="py-20">
-        <div class="container mx-auto px-6 text-center md:text-left"
+        <div class="container public-container text-center md:text-left"
             data-aos="zoom-in-up"
             data-aos-duration="500">
             <!-- Skills and Experience -->
-            <div class="mt-16 lg:grid lg:grid-cols-2 lg:gap-10">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-10">
                 <!-- Skills Section -->
                 <div class="lg:w-5/6">
                     <h3 class="text-3xl font-bold text-blue-500 mb-4">Skills</h3>
@@ -26,7 +26,7 @@
                 </div>
 
                 <!-- Experience Section -->
-                <div class="mt-16 ">
+                <div class="mt-16">
                     <h3 class="text-3xl font-bold text-blue-500 mb-4">Experience</h3>
                     <div class="space-y-6 text-gray-700">
                         <div>

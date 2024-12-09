@@ -1,6 +1,6 @@
 <template>
     <section id="projects" class="py-20">
-        <div class="container mx-auto px-6 text-center md:text-left"
+        <div class="container public-container text-center md:text-left"
             data-aos="zoom-in-up"
             data-aos-duration="500">
             <!-- Section Title -->

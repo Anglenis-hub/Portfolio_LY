@@ -8,7 +8,7 @@ import Contact from '@/components/Contact.vue'
 </script>
 
 <template>
-  <div class="bg-gray-100">
+  <div class="bg-gradient-to-r from-gray-100 to-blue-100">
     <NavBar />
     <HiLY />
     <About />

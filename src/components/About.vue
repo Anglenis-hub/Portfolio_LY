@@ -1,10 +1,10 @@
 <template>
     <section id="about" class="py-20">
-        <div class="container mx-auto px-6 text-center md:text-left"
+        <div class="container public-container text-center md:text-left"
             data-aos="zoom-in-up"
             data-aos-duration="500">
             <!-- About Me and Education -->
-            <div class="mt-16 lg:grid lg:grid-cols-2 lg:gap-10">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-10">
                 <!-- About Me -->
                 <div class="lg:w-5/6">
                     <h2 class="text-4xl font-bold text-blue-500 mb-6"> About Me </h2>
