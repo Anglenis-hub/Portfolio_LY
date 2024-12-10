@@ -1,8 +1,8 @@
 <template>
-    <header class="fixed z-nav top-0 left-0 w-full bg-blue-300 z-50 shadow-defaultBox">
-        <div class="flex justify-between items-center p-6 bg-blue-300 relative z-20">
+    <header class="fixed bg-primary z-nav top-0 left-0 w-full z-50 shadow-defaultBox">
+        <div class="flex justify-between items-center p-6 relative z-20">
             <!-- Logo -->
-            <div class="text-white text-3xl font-bold">LOGO</div>
+            <div class="text-blue-300  text-3xl font-bold">LIANG YI</div>
 
             <!-- Mobile Toggle Button -->
             <button
@@ -28,12 +28,12 @@
                     <li v-for="item in Menu" :key="item.name">
                         <a
                             href="javascript:void(0)"
-                            class="relative block text-white text-lg font-medium hover:text-yellow-200 transition-all duration-300 group"
+                            class="relative block text-blue-300 text-lg font-medium hover:text-yellow-100 transition-all duration-300 group"
                             @click="handleMenuClick(item.href)">
                             {{ item.name }}
                             <!-- Hover Animation -->
                             <span
-                                class="absolute left-0 bottom-0 w-0 h-1 bg-yellow-200 transition-all duration-500 group-hover:w-full">
+                                class="absolute left-0 bottom-0 w-0 h-1 bg-yellow-100 transition-all duration-500 group-hover:w-full">
                             </span>
                         </a>
                     </li>
@@ -45,7 +45,7 @@
         <nav
             v-show="isMobileView"
             :class="[
-                'bg-blue-300 overflow-hidden',
+                ' bg-primary overflow-hidden',
                 isMenuOpen ? 'max-h-screen drop-down' : 'max-h-0 drop-up'
             ]"
             class="transition-all duration-600 md:hidden">
@@ -53,7 +53,7 @@
                 <li v-for="item in Menu" :key="item.name">
                     <a
                         href="javascript:void(0)"
-                        class="block text-white transition hover:text-primary text-lg"
+                        class="block text-blue-300 transition hover:text-yellow-100 text-lg"
                         @click="handleMenuClick(item.href)">
                         {{ item.name }}
                     </a>
@@ -65,19 +65,12 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
+import { Menu } from '@/utils/menuItems.js';
 
 // Reactive state
 const isMenuOpen = ref(false); // Default to closed
 const isMobileView = ref(window.innerWidth < 768); // Check initial window width
 // const isLogoShown = ref(true); // Show logo by default
-
-// Menu items
-const Menu = ref([
-    { name: 'About me', href: '#about' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Contact', href: '#contact' },
-]);
 
 // Toggle menu state
 const toggleMenu = () => {

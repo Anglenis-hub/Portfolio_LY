@@ -1,15 +1,16 @@
 <script setup>
-import HiLY from '@/components/HiLY.vue'
-import NavBar from '@/components/NavBar.vue'
-import About from '@/components/About.vue'
-import Skills from '@/components/Skills.vue'
-import Projects from '@/components/Projects.vue'
-import Contact from '@/components/Contact.vue'
+import NavBar from '@/components/common/NavBar.vue'
+import Footer from "@/components/common/Footer.vue"
+import HiLY from '@/components/sections/HiLY.vue'
+import About from '@/components/sections/About.vue'
+import Skills from '@/components/sections/Skills.vue'
+import Projects from '@/components/sections/Projects.vue'
+import Contact from '@/components/sections/Contact.vue'
 import shapeDefinitions from "@/utils/shapeDefinitions";
 </script>
 
 <template>
-  <div class="relative bg-gradient-to-r from-gray-100 to-blue-100">
+  <div class="relative bg-primary">
     <div class="z-items">
       <NavBar />
       <HiLY />
@@ -32,6 +33,8 @@ import shapeDefinitions from "@/utils/shapeDefinitions";
         shape.opacity,
         shape.isShow,
       ]"></div>
+    <!-- BACK TO TOP BUTTON -->
+    <Footer />
   </div>
 </template>
 

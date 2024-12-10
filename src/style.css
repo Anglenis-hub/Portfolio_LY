@@ -6,6 +6,10 @@
     @apply mt-16 mx-auto px-6 relative z-items;
 }
 
+.bg-primary {
+    @apply bg-gradient-to-r from-gray-100 to-blue-100;
+}
+
 .z-shapes {
     @apply z-10;
 }

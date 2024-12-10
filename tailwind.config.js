@@ -6,6 +6,7 @@ export default {
       colors: {
         'primary': '#FF6363',
         'secondary': '#E2E2D5',
+        'foot': '#f5f5f5',
       },
       rotate: {
         15: '15deg',
@@ -15,13 +16,20 @@ export default {
         360: '360deg',
       },
       inset: {
+        '8': '2rem',
         '48': '12rem',
         '96': '24rem',
+      },
+      padding: {
+        '5/100': '5%',
+      },
+      zIndex: {
+        '-10': '-10',
       },
     },
     boxShadow: {
       'defaultBox': '0 2px 10px 1px rgba(0, 0, 0, 0.1)',
-    }
+    },
   },
   plugins: [],
   corePlugins: {
