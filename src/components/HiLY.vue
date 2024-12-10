@@ -1,8 +1,7 @@
 <template>
-  <section id="self-introduction"
-    class="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-gray-100 to-blue-100 overflow-hidden">
+  <section id="self-introduction" class="min-h-screen flex items-center justify-center">
     <!-- bg with some shapes -->
-    <div
+    <!-- <div
       v-for="(shape, index) in shapeDefinitions.shapeItems"
       :key="index"
       :class="[
@@ -13,13 +12,13 @@
         shapeDefinitions.shapeTypes[shape.shape],
         shapeDefinitions.effects[shape.effect],
         shape.opacity,
-      ]"></div>
+      ]"></div> -->
 
     <div
-      class="relative z-1 h-screen container mx-auto flex flex-col-reverse justify-evenly lg:flex-row items-center backdrop-blur-none">
+      class="h-screen container mx-auto flex flex-col-reverse justify-evenly lg:flex-row items-center backdrop-blur-none">
       <!-- left-slef introduce text -->
       <div
-        class="lg:w-9/12 text-center md:text-left p-6 bg-white/30 border border-white/20 shadow-defaultBox rounded-3xl">
+        class="z-items lg:w-9/12 text-center md:text-left p-6 bg-white/30 border border-white/20 shadow-defaultBox rounded-3xl">
         <h2 class="text-4xl font-bold text-blue-500 mb-4">Hello, I'm LIANG YI</h2>
         <p class="text-2xl text-gray-700 mb-6">
           I am a passionate and driven front-end developer with expertise in creating modern, responsive, and dynamic web
@@ -42,16 +41,16 @@
       </div>
 
       <!-- right-slef picture -->
-      <div class="lg:w-1/2 px-6">
+      <div class="z-items lg:w-1/2 px-6">
         <img src="https://via.placeholder.com/400" alt="Self Introduction" class="rounded-lg shadow-defaultBox mx-auto" />
       </div>
     </div>
   </section>
 </template>
 
-<script setup>
+<!-- <script setup>
 import shapeDefinitions from "@/utils/shapeDefinitions";
-</script>
+</script> -->
 <style scoped>
 /* make shapes have animation */
 @keyframes floating {

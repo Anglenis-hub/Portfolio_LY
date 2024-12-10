@@ -5,3 +5,15 @@
 .public-container {
     @apply mt-16 mx-auto px-6;
 }
+
+.z-shapes {
+    @apply z-10;
+}
+
+.z-items {
+    @apply z-20;
+}
+
+.z-nav {
+    @apply z-30;
+}

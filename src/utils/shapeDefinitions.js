@@ -45,13 +45,13 @@ export default {
     shapeItems: [
         // { position: "bottom-80 right-12", size: "huge", color: "cyan", shape: "roundedLg", opacity: "opacity-70", effect: "floating" },
         { position: "top-28 left-12", size: "lg", color: "blue", shape: "rounded", opacity: "opacity-70", effect: "rotateSmall" },
-        { position: "top-44 left-80", size: "xxl", color: "green", shape: "circle", opacity: "opacity-50", effect: "floatUp" },
+        // { position: "top-44 left-80", size: "xxl", color: "green", shape: "circle", opacity: "opacity-30", effect: "floatUp" },
         // { position: "top-16 right-16", size: "lg", color: "yellow", shape: "circle", opacity: "opacity-60", effect: "fadeIn" },
-        { position: "top-32 right-80", size: "huge", color: "cyan", shape: "roundedLg", opacity: "opacity-70", effect: "rotate" },
+        { position: "top-32 right-80", size: "huge", color: "cyan", shape: "roundedLg", opacity: "opacity-100", effect: "rotate", isShow: "invisible lg:visible" },
         { position: "top-80 right-24", size: "md", color: "teal", shape: "roundedMd", opacity: "opacity-75", effect: "rotateReverse" },
-        { position: "bottom-50 left-5", size: "md", color: "pink", shape: "circle", opacity: "opacity-50", effect: "bounce" },
+        { position: "bottom-96 left-5", size: "md", color: "pink", shape: "circle", opacity: "opacity-50", effect: "bounce" },
         { position: "bottom-10 left-20", size: "xxl", color: "red", shape: "square", opacity: "opacity-50", effect: "rotateSmall" },
-        { position: "bottom-40 left-1/3", size: "xl", color: "indigo", shape: "circle", opacity: "opacity-60", effect: "floatUp" },
+        { position: "bottom-40 left-1/3", size: "xl", color: "indigo", shape: "circle", opacity: "opacity-60", effect: "floatUp", isShow: "invisible lg:visible" },
         { position: "bottom-20 right-20", size: "huge", color: "purple", shape: "square", opacity: "opacity-60", effect: "rotateReverse" },
     ],
 }

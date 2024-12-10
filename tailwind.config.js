@@ -14,6 +14,10 @@ export default {
         135: '135deg',
         360: '360deg',
       },
+      inset: {
+        '48': '12rem',
+        '96': '24rem',
+      },
     },
     boxShadow: {
       'defaultBox': '0 2px 10px 1px rgba(0, 0, 0, 0.1)',
