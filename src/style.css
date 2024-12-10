@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .public-container {
-    @apply mt-16 mx-auto px-6;
+    @apply mt-16 mx-auto px-6 relative z-items;
 }
 
 .z-shapes {
@@ -16,4 +16,16 @@
 
 .z-nav {
     @apply z-30;
+}
+
+[data-aos] {
+    pointer-events: none;
+}
+
+.aos-animate {
+    pointer-events: auto;
+}
+
+.aos-init[data-aos][data-aos].aos-animate {
+    transform: unset;
 }

@@ -17,7 +17,9 @@
                     :key="project.title"
                     class="flex flex-col justify-between bg-gray-100 rounded-lg shadow-defaultBox p-6 hover:shadow-xl transition-shadow duration-300">
                     <div>
-                        <img :src="project.image" :alt="project.title" class="w-full h-48 object-cover rounded-md mb-4" />
+                        <img :src="project.image"
+                            :alt="project.title"
+                            class="w-full h-48 object-cover rounded-md mb-4" />
                         <h4 class="text-2xl font-semibold text-gray-800 mb-2">{{ project.title }}</h4>
                         <p class="text-gray-600 mb-4">{{ project.description }}</p>
                     </div>

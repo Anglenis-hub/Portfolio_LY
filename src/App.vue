@@ -9,14 +9,15 @@ import shapeDefinitions from "@/utils/shapeDefinitions";
 </script>
 
 <template>
-  <div class="bg-gradient-to-r from-gray-100 to-blue-100">
-    <NavBar />
-    <HiLY />
-    <About />
-    <Skills />
-    <Projects />
-    <Contact />
-
+  <div class="relative bg-gradient-to-r from-gray-100 to-blue-100">
+    <div class="z-items">
+      <NavBar />
+      <HiLY />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </div>
     <!-- BACKGROUND with some shapes -->
     <div
       v-for="(shape, index) in shapeDefinitions.shapeItems"
