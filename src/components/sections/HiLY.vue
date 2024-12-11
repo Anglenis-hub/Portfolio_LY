@@ -1,48 +1,45 @@
 <template>
-  <section id="self-introduction" class="min-h-screen flex items-center justify-center">
-    <!-- bg with some shapes -->
-    <!-- <div
-      v-for="(shape, index) in shapeDefinitions.shapeItems"
-      :key="index"
-      :class="[
-        'absolute z-10 transform transition-all duration-500',
-        shape.position,
-        shapeDefinitions.sizes[shape.size],
-        shapeDefinitions.colors[shape.color],
-        shapeDefinitions.shapeTypes[shape.shape],
-        shapeDefinitions.effects[shape.effect],
-        shape.opacity,
-      ]"></div> -->
-
+  <section id="self-introduction" class="min-h-screen">
     <div
-      class="h-screen container mx-auto flex flex-col-reverse justify-evenly lg:flex-row items-center backdrop-blur-none">
+      class="h-screen container mx-auto flex flex-col-reverse justify-evenly items-center lg:flex-row lg:justify-center backdrop-blur-none"
+    >
       <!-- left-slef introduce text -->
       <div
-        class="z-items lg:w-9/12 text-center md:text-left p-6 bg-white/30 border border-white/20 shadow-defaultBox rounded-3xl">
-        <h2 class="text-4xl font-bold text-blue-500 mb-4">Hello, I'm LIANG YI</h2>
-        <p class="text-2xl text-gray-700 mb-6">
-          I am a passionate and driven front-end developer with expertise in creating modern, responsive, and dynamic web
-          applications. My journey started with a love for design and problem-solving, and it has grown into a fulfilling
-          career in web development.
-        </p>
-        <p class="text-2xl text-gray-700 mb-6">
+        class="z-items min-h-340 sm:min-h-400 mx-12 p-6 mt-4 sm:mx-6 lg:mr-0 flex flex-col justify-between lg:w-1/2 text-center lg:text-left bg-white/30 border border-white/20 shadow-defaultBox rounded-3xl"
+      >
+        <div class="mx-auto">
+          <h2
+            class="text-2xl sm:text-6xl font-bold text-blue-300 mb-4 sm:mb-12"
+          >
+            Hello, I'm LIANG YI
+          </h2>
+          <h2 class="text-lg sm:text-2xl text-gray-700 mb-6 sm:mb-12 text-left">
+            a front-end developer passionate about creating modern and
+            user-friendly web applications.
+          </h2>
+        </div>
+        <!-- <p class="text-2xl text-gray-700 mb-6">
           Skilled in Vue, TailwindCSS, and JavaScript, I aim to craft user-friendly interfaces that leave a lasting
           impression. Whether it's building single-page applications or contributing to collaborative projects, I thrive
           on turning ideas into reality.
-        </p>
-        <a href="#contact"
-          class="inline-block bg-blue-500 text-white px-6 py-3 mr-8 rounded-lg shadow-defaultBox hover:bg-blue-600 transition duration-300">
-          Contact Me
-        </a>
-        <a href="/resume_PDF.pdf" download
-          class="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-defaultBox hover:bg-blue-600 transition duration-300">
-          Download Resume
-        </a>
+        </p> -->
+        <div>
+          <a href="#contact" class="slefintro-button mb-4 sm:mb-0 sm:mr-8">
+            Contact Me
+          </a>
+          <a href="/resume_PDF.pdf" download class="slefintro-button">
+            Download Resume
+          </a>
+        </div>
       </div>
 
       <!-- right-slef picture -->
-      <div class="z-items lg:w-1/2 px-6">
-        <img src="https://via.placeholder.com/400" alt="Self Introduction" class="rounded-lg shadow-defaultBox mx-auto" />
+      <div class="z-items lg:w-1/2 px-12 mt-32 sm:mt-4 sm:px-6">
+        <img
+          src="https://via.placeholder.com/400"
+          alt="Self Introduction"
+          class="rounded-lg shadow-defaultBox mx-auto"
+        />
       </div>
     </div>
   </section>
@@ -51,6 +48,8 @@
 <!-- <script setup>
 import shapeDefinitions from "@/utils/shapeDefinitions";
 </script> -->
+
+<!-- prettier-ignore-start -->
 <style scoped>
 /* make shapes have animation */
 @keyframes floating {
@@ -71,4 +70,8 @@ import shapeDefinitions from "@/utils/shapeDefinitions";
   animation: floating 1s ease-in-out infinite;
   rotate: 15deg;
 } */
+.slefintro-button {
+  @apply block sm:inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-defaultBox hover:bg-blue-600 transition duration-300;
+}
 </style>
+<!-- prettier-ignore-end -->

@@ -3,6 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      spacing: {
+        '340': '340px',
+        '400': '400px',
+      },
       colors: {
         'primary': '#FF6363',
         'secondary': '#E2E2D5',
