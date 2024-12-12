@@ -13,7 +13,7 @@
           <div class="about-text">
             <!-- Floating Profile Image -->
             <img
-              src="@/assets/aboutmeImg.JPG"
+              :src="aboutme.img"
               alt="Profile"
               class="w-40 rounded-lg shadow-md profile-float"
             />
@@ -61,6 +61,10 @@
     </div>
   </section>
 </template>
+
+<script setup>
+const aboutme = { img: "/aboutmeImg.jpg" };
+</script>
 
 <style scoped>
 /* Custom styling for image floating */

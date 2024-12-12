@@ -39,7 +39,7 @@
         class="z-items overflow-hidden mt-28 lg:mt-0 w-7/12 lg:w-35/100 xl:w-30/100 sm:ml-12 sm:mt-4 sm:px-6"
       >
         <img
-          src="@/assets/Img.jpg"
+          :src="img.image"
           alt="Self Introduction"
           class="rounded-lg shadow-defaultBox mx-auto"
         />
@@ -48,7 +48,11 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+const img = {
+  image: "/Img.JPG",
+};
+</script>
 
 <!-- prettier-ignore-start -->
 <style scoped>
