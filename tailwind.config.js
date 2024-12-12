@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      screens: {
+        'mobile': '600px',
+      },
       spacing: {
         '340': '340px',
         '400': '400px',
@@ -21,6 +24,7 @@ export default {
       },
       inset: {
         '8': '2rem',
+        '10': '2.5rem',
         '48': '12rem',
         '96': '24rem',
       },

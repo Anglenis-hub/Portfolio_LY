@@ -1,5 +1,5 @@
 <template>
-  <section id="skills" class="py-20">
+  <section id="skills" class="section-box">
     <div
       class="container public-container text-center md:text-left"
       data-aos="zoom-in-up"

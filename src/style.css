@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.section-box {
+  @apply py-10 sm:py-20;
+}
 .public-container {
   @apply mt-16 mx-auto px-6 relative z-items;
 }
