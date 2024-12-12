@@ -64,13 +64,13 @@ const experiences = [
     header: "Front-End Engineer Intership",
     company: "[Dahua Technology], 2021/7 - 2022/6",
     description:
-      "Worked on EC App and Web Development for a Major Electronics Manufacturer",
+      "Contributed to Corporate Official Website and Portal Site Development",
   },
   {
     header: "Front-End Engineer",
     company: "[Dahua Technology], 2022/6 - 2023/3",
     description:
-      "Contributed to Corporate Official Website and Portal Site Development",
+      "Worked on EC App and Web Development for a Major Electronics Manufacturer",
   },
   {
     header: "IT Engineer",

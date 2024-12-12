@@ -24,7 +24,7 @@
             <img
               :src="project.image"
               :alt="project.title"
-              class="w-full h-48 object-cover rounded-md mb-4"
+              class="mx-auto h-48 object-cover rounded-md mb-4"
             />
             <h4 class="text-2xl font-semibold text-gray-800 mb-2">
               {{ project.title }}
@@ -33,19 +33,19 @@
           </div>
           <div class="flex justify-between items-center">
             <a
-              :href="project.demo"
+              :href="project.link"
               target="_blank"
               class="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
             >
-              Live Demo
+              Link
             </a>
-            <a
+            <!-- <a
               :href="project.github"
               target="_blank"
               class="text-blue-500 underline hover:text-blue-600 transition duration-300"
             >
               GitHub
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -57,25 +57,27 @@
 // Project data
 const projects = [
   {
-    title: "Portfolio Website",
-    description: "A personal portfolio built with Vue.js and TailwindCSS.",
-    image: "https://via.placeholder.com/300x200",
-    demo: "https://portfolio-example.com",
-    github: "https://github.com/yourusername/portfolio",
+    title: "EC website",
+    description:
+      "Electrical products of Listed company App&Web Development with Vue.js.",
+    image: "/ECweb.JPG",
+    link: "https://mall.dahuatech.com/#/Home",
+    // github: "https://github.com/yourusername/portfolio",
   },
   {
-    title: "E-Commerce Platform",
-    description: "An online store with shopping cart and payment integration.",
-    image: "https://via.placeholder.com/300x200",
-    demo: "https://ecommerce-example.com",
-    github: "https://github.com/yourusername/ecommerce",
+    title: "IoT platform",
+    description:
+      "IoT ecosystem powered by AIoT and data platforms with Vue.js&TailwindCSS.",
+    image: "IoTplatform.png",
+    link: "https://open.dahuatech.com/#/home",
+    // github: "https://github.com/yourusername/ecommerce",
   },
   {
-    title: "Weather App",
-    description: "A weather app that provides real-time weather updates.",
-    image: "https://via.placeholder.com/300x200",
-    demo: "https://weather-app-example.com",
-    github: "https://github.com/yourusername/weather-app",
+    title: "Hot Pepper App Clone",
+    description: "A hot pepper app clone using JavaScript&WeChat Mini Program.",
+    image: "/hotpepper.png",
+    link: "https://github.com/Anglenis-hub/beauty-miniProgram",
+    // github: "https://github.com/yourusername/weather-app",
   },
 ];
 </script>

@@ -1,11 +1,11 @@
 <script setup>
-import NavBar from '@/components/common/NavBar.vue'
-import Footer from "@/components/common/Footer.vue"
-import HiLY from '@/components/sections/HiLY.vue'
-import About from '@/components/sections/About.vue'
-import Skills from '@/components/sections/Skills.vue'
-import Projects from '@/components/sections/Projects.vue'
-import Contact from '@/components/sections/Contact.vue'
+import NavBar from "@/components/common/NavBar.vue";
+import Footer from "@/components/common/Footer.vue";
+import HiLY from "@/components/sections/HiLY.vue";
+import About from "@/components/sections/About.vue";
+import Skills from "@/components/sections/Skills.vue";
+import Projects from "@/components/sections/Projects.vue";
+import Contact from "@/components/sections/Contact.vue";
 import shapeDefinitions from "@/utils/shapeDefinitions";
 </script>
 
@@ -20,7 +20,7 @@ import shapeDefinitions from "@/utils/shapeDefinitions";
       <Contact />
     </div>
     <!-- BACKGROUND with some shapes -->
-    <div
+    <!-- <div
       v-for="(shape, index) in shapeDefinitions.shapeItems"
       :key="index"
       :class="[
@@ -32,7 +32,7 @@ import shapeDefinitions from "@/utils/shapeDefinitions";
         shapeDefinitions.effects[shape.effect],
         shape.opacity,
         shape.isShow,
-      ]"></div>
+      ]"></div> -->
     <!-- BACK TO TOP BUTTON -->
     <Footer />
   </div>

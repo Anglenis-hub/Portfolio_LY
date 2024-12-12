@@ -10,12 +10,12 @@
         <!-- About Me -->
         <div class="lg:w-5/6">
           <h2 class="sction-title">About Me</h2>
-          <div class="text-lg text-gray-700 space-y-4 relative">
+          <div class="about-text">
             <!-- Floating Profile Image -->
             <img
-              src="https://via.placeholder.com/200"
+              src="@/assets/aboutmeImg.JPG"
               alt="Profile"
-              class="w-32 h-32 lg:w-40 lg:h-40 rounded-lg shadow-md profile-float"
+              class="w-40 rounded-lg shadow-md profile-float"
             />
 
             <!-- Description Text -->
@@ -68,5 +68,12 @@
   @apply float-left mr-2 mb-2;
   /* margin-right: 1.5rem;
   margin-bottom: 1rem; */
+}
+.about-text {
+  @apply text-lg text-gray-700 space-y-4 relative;
+}
+.about-text p {
+  @apply text-left;
+  /* text-align: justify; */
 }
 </style>

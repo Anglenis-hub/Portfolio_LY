@@ -5,13 +5,14 @@
     >
       <!-- left-slef introduce text -->
       <div
-        class="z-items min-h-340 sm:min-h-400 mx-12 p-6 mt-4 sm:mx-6 lg:mr-0 flex flex-col justify-between lg:w-1/2 text-center lg:text-left bg-white/30 border border-white/20 shadow-defaultBox rounded-3xl"
+        class="z-items min-h-340 sm:min-h-400 2xl:min-h-550 mx-12 p-4 sm:p-6 mt-4 sm:mx-6 lg:mr-0 flex flex-col justify-between lg:w-1/2 2xl:w-65/100 text-center lg:text-left bg-white/30 border border-white/20 shadow-defaultBox rounded-3xl"
       >
         <div class="mx-auto">
+          <h2 class="text-4xl sm:text-6xl font-bold text-blue-300">Hello</h2>
           <h2
-            class="text-2xl sm:text-6xl font-bold text-blue-300 mb-4 sm:mb-12"
+            class="text-4xl sm:text-6xl font-bold text-blue-300 mb-4 sm:mb-12"
           >
-            Hello, I'm LIANG YI
+            I'm LIANG YI
           </h2>
           <h2 class="text-lg sm:text-2xl text-gray-700 mb-6 sm:mb-12 text-left">
             a front-end developer passionate about creating modern and
@@ -34,9 +35,11 @@
       </div>
 
       <!-- right-slef picture -->
-      <div class="z-items lg:w-1/2 px-12 mt-32 sm:mt-4 sm:px-6">
+      <div
+        class="z-items overflow-hidden mt-28 lg:mt-0 w-7/12 lg:w-35/100 xl:w-30/100 sm:ml-12 sm:mt-4 sm:px-6"
+      >
         <img
-          src="https://via.placeholder.com/400"
+          src="@/assets/Img.jpg"
           alt="Self Introduction"
           class="rounded-lg shadow-defaultBox mx-auto"
         />
@@ -45,9 +48,7 @@
   </section>
 </template>
 
-<!-- <script setup>
-import shapeDefinitions from "@/utils/shapeDefinitions";
-</script> -->
+<script setup></script>
 
 <!-- prettier-ignore-start -->
 <style scoped>
