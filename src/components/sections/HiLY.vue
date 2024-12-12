@@ -5,16 +5,16 @@
     >
       <!-- left-slef introduce text -->
       <div
-        class="z-items min-h-340 sm:min-h-400 2xl:min-h-550 mx-12 p-4 sm:p-6 mt-4 sm:mx-6 lg:mr-0 flex flex-col justify-between lg:w-1/2 2xl:w-65/100 text-center lg:text-left bg-white/30 border border-white/20 shadow-defaultBox rounded-3xl"
+        class="z-items min-h-320 sm:min-h-400 2xl:min-h-550 mx-12 p-4 sm:p-6 mt-4 sm:mx-6 lg:mr-0 flex flex-col justify-between lg:w-1/2 2xl:w-65/100 text-center lg:text-left bg-white/30 border border-white/20 shadow-defaultBox rounded-3xl"
       >
         <div class="mx-auto">
-          <h2 class="text-4xl sm:text-6xl font-bold text-blue-300">Hello</h2>
+          <h2 class="text-3xl sm:text-6xl font-bold text-blue-300">Hello</h2>
           <h2
-            class="text-4xl sm:text-6xl font-bold text-blue-300 mb-4 sm:mb-12"
+            class="text-3xl sm:text-6xl font-bold text-blue-300 mb-4 sm:mb-12"
           >
             I'm LIANG YI
           </h2>
-          <h2 class="text-lg sm:text-2xl text-gray-700 mb-6 sm:mb-12 text-left">
+          <h2 class="text-lg sm:text-2xl text-gray-700 mb-2 sm:mb-12 text-left">
             a front-end developer passionate about creating modern and
             user-friendly web applications.
           </h2>
@@ -25,7 +25,7 @@
           on turning ideas into reality.
         </p> -->
         <div>
-          <a href="#contact" class="slefintro-button mb-4 sm:mb-0 sm:mr-8">
+          <a href="#contact" class="slefintro-button mb-2 sm:mb-0 sm:mr-8">
             Contact Me
           </a>
           <a href="/resume_PDF.pdf" download class="slefintro-button">
@@ -36,7 +36,7 @@
 
       <!-- right-slef picture -->
       <div
-        class="z-items overflow-hidden mt-28 lg:mt-0 w-7/12 lg:w-35/100 xl:w-30/100 sm:ml-12 sm:mt-4 sm:px-6"
+        class="z-items overflow-hidden mt-16 lg:mt-0 w-7/12 lg:w-35/100 xl:w-30/100 sm:ml-12 sm:mt-4 sm:px-6"
       >
         <img
           :src="img.image"
@@ -76,7 +76,7 @@ const img = {
   rotate: 15deg;
 } */
 .slefintro-button {
-  @apply block sm:inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-defaultBox hover:bg-blue-600 transition duration-300;
+  @apply block sm:inline-block bg-blue-500 text-white text-sm sm:text-lg p-2 sm:px-6 sm:py-3 rounded-lg shadow-defaultBox hover:bg-blue-600 transition duration-300;
 }
 </style>
 <!-- prettier-ignore-end -->

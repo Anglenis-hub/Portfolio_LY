@@ -7,6 +7,7 @@ export default {
         'mobile': '600px',
       },
       spacing: {
+        '320': '320px',
         '340': '340px',
         '400': '400px',
         '550': '550px',

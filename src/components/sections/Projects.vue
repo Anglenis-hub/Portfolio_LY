@@ -7,7 +7,7 @@
     >
       <!-- Section Title -->
       <h3 class="sction-title">Projects</h3>
-      <p class="text-lg text-gray-600 mb-10">
+      <p class="text-lg text-gray-600 mb-10 text-left">
         Here are some of the projects I've worked on. Click the links to learn
         more or view the live demos.
       </p>
@@ -29,7 +29,9 @@
             <h4 class="text-2xl font-semibold text-gray-800 mb-2">
               {{ project.title }}
             </h4>
-            <p class="text-gray-600 mb-4">{{ project.description }}</p>
+            <p class="text-gray-600 mb-4 text-left">
+              {{ project.description }}
+            </p>
           </div>
           <div class="flex justify-between items-center">
             <a

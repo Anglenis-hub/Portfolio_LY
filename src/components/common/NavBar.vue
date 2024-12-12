@@ -2,9 +2,9 @@
   <header
     class="fixed bg-primary z-nav top-0 left-0 w-full z-50 shadow-defaultBox"
   >
-    <div class="flex justify-between items-center p-6 relative z-20">
+    <div class="flex justify-between items-center p-2 sm:p-4 relative z-20">
       <!-- Logo -->
-      <div class="text-blue-300 text-3xl font-bold">LIANG YI</div>
+      <div class="text-blue-300 text-xl sm:text-3xl font-bold">LIANG YI</div>
 
       <!-- Mobile Toggle Button -->
       <button
@@ -17,16 +17,16 @@
           <img
             src="https://img.icons8.com/ios-filled/100/ffffff/delete-sign.png"
             alt="close"
-            width="50"
-            height="50"
+            width="30"
+            height="30"
           />
         </span>
         <span v-else class="text-5xl">
           <img
             src="https://img.icons8.com/ios-filled/100/ffffff/menu--v6.png"
             alt="menu"
-            width="50"
-            height="50"
+            width="30"
+            height="30"
           />
         </span>
       </button>
