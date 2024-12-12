@@ -9,8 +9,8 @@
       <div class="lg:grid lg:grid-cols-2 lg:gap-10">
         <!-- About Me -->
         <div class="lg:w-5/6">
-          <h2 class="text-4xl font-bold text-blue-500 mb-6">About Me</h2>
-          <div class="text-lg text-gray-700 space-y-6 relative">
+          <h2 class="sction-title">About Me</h2>
+          <div class="text-lg text-gray-700 space-y-4 relative">
             <!-- Floating Profile Image -->
             <img
               src="https://via.placeholder.com/200"
@@ -45,15 +45,15 @@
         </div>
         <!-- Education -->
         <div class="mt-16">
-          <h3 class="text-3xl font-bold text-blue-500 mb-4">Education</h3>
+          <h3 class="section-header">Education</h3>
           <ul class="list-disc list-inside text-gray-700 space-y-4 text-lg">
             <li>
-              <strong>Bachelor's in Software Engineering</strong> - [Your
-              University Name], [Year]
+              <strong>Software Engineering</strong> - [Communication University
+              of Zhejiang], [2022]
             </li>
             <li>
-              <strong>Certification in Full-Stack Development</strong> -
-              [Institution Name], [Year]
+              <strong>Japanese</strong> - [Kudan Institute of Japanese
+              Language&Culture], [2024]
             </li>
           </ul>
         </div>

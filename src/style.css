@@ -3,33 +3,39 @@
 @tailwind utilities;
 
 .public-container {
-    @apply mt-16 mx-auto px-6 relative z-items;
+  @apply mt-16 mx-auto px-6 relative z-items;
 }
-
+.sction-title {
+  @apply text-4xl font-bold text-blue-500 mb-4;
+}
+.section-header {
+  @apply text-3xl font-bold text-blue-500 mb-4;
+}
+.section-subheader {
+  @apply text-lg font-bold;
+}
 .bg-primary {
-    @apply bg-gradient-to-r from-gray-100 to-blue-100;
+  @apply bg-gradient-to-r from-gray-100 to-blue-100;
 }
-
 .z-shapes {
-    @apply z-10;
+  @apply z-10;
 }
-
 .z-items {
-    @apply z-20;
+  @apply z-20;
 }
 
 .z-nav {
-    @apply z-30;
+  @apply z-30;
 }
 
 [data-aos] {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 .aos-animate {
-    pointer-events: auto;
+  pointer-events: auto;
 }
 
 .aos-init[data-aos][data-aos].aos-animate {
-    transform: unset;
+  transform: unset;
 }
