@@ -28,7 +28,7 @@
           <a href="#contact" class="slefintro-button mb-2 sm:mb-0 sm:mr-8">
             Contact Me
           </a>
-          <a href="/resume_PDF.pdf" download class="slefintro-button">
+          <a href="/resume_pdf_1220.pdf" download class="slefintro-button">
             Download Resume
           </a>
         </div>
