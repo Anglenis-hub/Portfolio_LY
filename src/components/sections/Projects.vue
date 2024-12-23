@@ -9,7 +9,7 @@
       <h3 class="sction-title">Projects</h3>
       <p class="text-lg text-gray-600 mb-10 text-left">
         Here are some of the projects I've worked on. Click the links to learn
-        more or view the live demos.
+        more.
       </p>
 
       <!-- Projects Grid -->
@@ -79,6 +79,13 @@ const projects = [
     description: "A hot pepper app clone using JavaScript&WeChat Mini Program.",
     image: "/hotpepper.png",
     link: "https://github.com/Anglenis-hub/beauty-miniProgram",
+    // github: "https://github.com/yourusername/weather-app",
+  },
+  {
+    title: "Portal Site",
+    description: "Portal site for Dahua Technology with Vue.js.",
+    image: "/portal.png",
+    link: "https://www.dahuasecurity.com/solutions",
     // github: "https://github.com/yourusername/weather-app",
   },
 ];

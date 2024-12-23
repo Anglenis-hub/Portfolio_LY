@@ -55,6 +55,7 @@ const skills = [
   { name: "React.js", percentage: 60 },
   { name: "TypeScript", percentage: 50 },
   { name: "TailwindCSS", percentage: 80 },
+  { name: "Nuxt.js", percentage: 50 },
   // { name: "Node.js", percentage: 90 },
 ].sort((a, b) => b.percentage - a.percentage);
 

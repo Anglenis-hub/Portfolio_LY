@@ -69,7 +69,7 @@ const aboutme = { img: "/aboutmeImg.jpg" };
 <style scoped>
 /* Custom styling for image floating */
 .profile-float {
-  @apply float-left mr-2 mb-2;
+  @apply float-left mr-4 mb-1;
   /* margin-right: 1.5rem;
   margin-bottom: 1rem; */
 }
