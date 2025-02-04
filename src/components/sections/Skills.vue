@@ -1,10 +1,6 @@
 <template>
   <section id="skills" class="section-box">
-    <div
-      class="container public-container text-center md:text-left"
-      data-aos="zoom-in-up"
-      data-aos-duration="500"
-    >
+    <div class="container public-container text-center md:text-left" data-aos="zoom-in-up" data-aos-duration="500">
       <!-- Skills and Experience -->
       <div class="lg:grid lg:grid-cols-2 lg:gap-10">
         <!-- Skills Section -->
@@ -14,9 +10,7 @@
             <!-- Loop through skills -->
             <div v-for="skill in skills" :key="skill.name">
               <div class="flex justify-between">
-                <span class="font-semibold text-gray-700">{{
-                  skill.name
-                }}</span>
+                <span class="font-semibold text-gray-700">{{ skill.name }}</span>
                 <span class="text-gray-600">{{ skill.percentage }}%</span>
               </div>
               <div class="w-full bg-gray-300 rounded-full h-4">
@@ -52,10 +46,8 @@ const skills = [
   { name: "HTML/CSS", percentage: 100 },
   { name: "JavaScript", percentage: 90 },
   { name: "Vue.js", percentage: 90 },
-  { name: "React.js", percentage: 60 },
   { name: "TypeScript", percentage: 50 },
   { name: "TailwindCSS", percentage: 80 },
-  { name: "Nuxt.js", percentage: 50 },
   // { name: "Node.js", percentage: 90 },
 ].sort((a, b) => b.percentage - a.percentage);
 
@@ -64,19 +56,16 @@ const experiences = [
   {
     header: "Front-End Engineer Intership",
     company: "[Dahua Technology], 2021/7 - 2022/6",
-    description:
-      "Contributed to Corporate Official Website and Portal Site Development",
+    description: "Contributed to Corporate Official Website and Portal Site Development",
   },
   {
     header: "Front-End Engineer",
     company: "[Dahua Technology], 2022/6 - 2023/3",
-    description:
-      "Worked on EC App and Web Development for a Major Electronics Manufacturer",
+    description: "Worked on EC App and Web Development for a Major Electronics Manufacturer",
   },
   {
-    header: "IT Engineer",
+    header: "Front-End Engineer",
     company: "[Marvel], 2024/12 - Present",
-    description: "Participated in web development projects",
   },
 ];
 </script>

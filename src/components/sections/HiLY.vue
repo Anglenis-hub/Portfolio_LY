@@ -9,14 +9,9 @@
       >
         <div class="mx-auto">
           <h2 class="text-3xl sm:text-6xl font-bold text-blue-300">Hello</h2>
-          <h2
-            class="text-3xl sm:text-6xl font-bold text-blue-300 mb-4 sm:mb-12"
-          >
-            I'm LIANG YI
-          </h2>
+          <h2 class="text-3xl sm:text-6xl font-bold text-blue-300 mb-4 sm:mb-12">I'm LIANG YI</h2>
           <h2 class="text-lg sm:text-2xl text-gray-700 mb-2 sm:mb-12 text-left">
-            a front-end developer passionate about creating modern and
-            user-friendly web applications.
+            a front-end developer passionate about creating modern and user-friendly web applications.
           </h2>
         </div>
         <!-- <p class="text-2xl text-gray-700 mb-6">
@@ -25,24 +20,16 @@
           on turning ideas into reality.
         </p> -->
         <div>
-          <a href="#contact" class="slefintro-button mb-2 sm:mb-0 sm:mr-8">
-            Contact Me
-          </a>
-          <a href="/resume_pdf_1220.pdf" download class="slefintro-button">
+          <a href="#contact" class="slefintro-button mb-2 sm:mb-0 sm:mr-8"> Contact Me </a>
+          <!-- <a href="/resume_pdf_1220.pdf" download class="slefintro-button">
             Download Resume
-          </a>
+          </a> -->
         </div>
       </div>
 
       <!-- right-slef picture -->
-      <div
-        class="z-items overflow-hidden mt-16 lg:mt-0 w-7/12 lg:w-35/100 xl:w-30/100 sm:ml-12 sm:mt-4 sm:px-6"
-      >
-        <img
-          :src="img.image"
-          alt="Self Introduction"
-          class="rounded-lg shadow-defaultBox mx-auto"
-        />
+      <div class="z-items overflow-hidden mt-16 lg:mt-0 w-7/12 lg:w-35/100 xl:w-30/100 sm:ml-12 sm:mt-4 sm:px-6">
+        <img :src="img.image" alt="Self Introduction" class="rounded-lg shadow-defaultBox mx-auto" />
       </div>
     </div>
   </section>
