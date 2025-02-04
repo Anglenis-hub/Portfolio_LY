@@ -4,10 +4,8 @@
     <footer
       class="relative bottom-0 z-50 bg-foot text-gray-600 text-sm py-4 px-5/100 text-center border-t border-gray-200"
     >
-      <div
-        class="flex flex-col items-center space-y-4 md:flex-row md:justify-between md:space-y-0"
-      >
-        <p>© 2024 LIANG YI</p>
+      <div class="flex flex-col items-center space-y-4 md:flex-row md:justify-between md:space-y-0">
+        <p>© 2025 LIANG YI</p>
         <nav class="hidden md:flex space-x-6">
           <a
             href="javascript:void(0)"
